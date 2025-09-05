@@ -1,0 +1,17 @@
+{
+  "project": "CHS-Core",
+  "version": "0.1.0",
+  "build_time": "2025-09-05T08:04:37.383070",
+  "description": "Core simulation engine for complex hydraulic systems",
+  "components": {
+    "main_package": "chs_core-0.1.0-py3-none-any.whl",
+    "api_package": "chs_core_api/",
+    "documentation": "docs/",
+    "scripts": "scripts/"
+  },
+  "installation": {
+    "pip_install": "pip install packages/chs_core-0.1.0-py3-none-any.whl",
+    "api_install": "pip install packages/chs_core_api/",
+    "requirements": "pip install -r requirements.txt"
+  }
+}

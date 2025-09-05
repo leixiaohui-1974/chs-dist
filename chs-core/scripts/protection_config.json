@@ -1,0 +1,89 @@
+{
+  "exclude_patterns": [
+    "__pycache__",
+    "*.pyc",
+    "*.pyo",
+    "*.pyd",
+    ".git",
+    ".gitignore",
+    "*.md",
+    "tests/",
+    "test_*.py",
+    "*_test.py",
+    "docs/",
+    "*.rst",
+    "*.txt",
+    "Makefile",
+    "*.yml",
+    "*.yaml",
+    ".github/",
+    "scripts/",
+    "examples/"
+  ],
+  "keep_source_files": [
+    "__init__.py",
+    "setup.py",
+    "requirements.txt",
+    "pyproject.toml",
+    "MANIFEST.in",
+    "LICENSE",
+    "README.md"
+  ],
+  "critical_files": [
+    "chs_core/core/",
+    "chs_core/engine/",
+    "chs_core/algorithms/",
+    "chs_core/models/",
+    "chs_core/processors/"
+  ],
+  "api_files": [
+    "chs_core_api/"
+  ],
+  "protection_levels": {
+    "api": "source",
+    "core": "bytecode",
+    "engine": "bytecode",
+    "algorithms": "obfuscate",
+    "models": "bytecode",
+    "processors": "bytecode",
+    "utils": "source",
+    "config": "source"
+  },
+  "obfuscation_settings": {
+    "remove_comments": true,
+    "remove_docstrings": false,
+    "remove_blank_lines": true,
+    "rename_variables": false,
+    "add_dummy_code": false
+  },
+  "bytecode_settings": {
+    "optimize_level": 2,
+    "remove_source": true,
+    "compress": true
+  },
+  "distribution_settings": {
+    "create_api_package": true,
+    "create_impl_package": true,
+    "separate_packages": true,
+    "include_documentation": false,
+    "include_tests": false
+  },
+  "security_settings": {
+    "add_integrity_check": true,
+    "encrypt_critical_files": false,
+    "add_license_check": true,
+    "obfuscate_imports": false
+  },
+  "build_settings": {
+    "clean_before_build": true,
+    "verify_after_build": true,
+    "create_checksums": true,
+    "generate_manifest": true
+  },
+  "logging_settings": {
+    "log_level": "INFO",
+    "log_file": "protection.log",
+    "detailed_stats": true,
+    "include_file_hashes": true
+  }
+}
