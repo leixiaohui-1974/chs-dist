@@ -1,0 +1,138 @@
+Metadata-Version: 2.4
+Name: chs-core
+Version: 0.1.0
+Summary: Core simulation engine for complex hydraulic systems
+Home-page: https://github.com/CHS-SDK/chs-core
+Author: CHS-SDK Team
+Author-email: contact@chssdk.org
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: pyyaml>=5.4.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.12.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# CHS-Core 水力系统仿真引擎
+
+一个用于水力系统仿真和建模的 Python 包。
+
+## 项目简介
+
+CHS-Core 是一个专业的水力系统仿真引擎，提供了完整的物理对象建模、数据处理、核心引擎和配置管理功能。该项目采用模块化设计，支持复杂水力系统的建模、仿真和分析。
+
+## 主要功能
+
+### 🏗️ 物理对象建模
+- **水库 (Reservoir)**: 水库容量、水位控制和流量管理
+- **泵站 (Pump)**: 水泵性能建模和控制
+- **阀门 (Valve)**: 流量调节和压力控制
+- **水轮机 (Water Turbine)**: 水力发电建模
+- **渠道 (Canal)**: 输水渠道和延迟建模
+- **水电站 (Hydropower Station)**: 综合水电系统建模
+
+### 📊 数据处理
+- **数据清洗 (Data Cleaner)**: 自动化数据预处理
+- **异常检测 (Anomaly Detector)**: 智能异常识别
+- **认知增强 (Cognitive Enhancer)**: 数据智能分析
+- **评估器 (Evaluator)**: 系统性能评估
+
+### ⚙️ 核心引擎
+- **仿真测试框架**: MIL/SIL 测试支持
+- **求解器**: 网络求解和批处理
+- **代理工厂**: 智能代理管理
+- **模板管理**: 可复用组件模板
+
+### 🔧 配置管理
+- **统一配置管理器**: 集中化配置
+- **YAML 加载器**: 灵活的配置文件支持
+- **对象工厂**: 动态对象创建
+
+## 安装方式
+
+### 从源码安装
+```bash
+git clone <repository-url>
+cd chs-core
+pip install -e .
+```
+
+### 从包文件安装
+```bash
+# 安装 wheel 包
+pip install dist/chs_core-0.1.0-py3-none-any.whl
+
+# 或安装源码包
+pip install dist/chs_core-0.1.0.tar.gz
+```
+
+## 快速开始
+
+```python
+# 导入核心模块
+from physical_objects import Reservoir, Pump, Valve
+from data_processing import DataCleaner, AnomalyDetector
+from core_engine.testing import SimulationHarness
+
+# 创建水库对象
+reservoir = Reservoir(capacity=1000000, initial_level=500000)
+
+# 创建数据处理器
+cleaner = DataCleaner()
+detector = AnomalyDetector()
+
+# 运行仿真
+harness = SimulationHarness()
+result = harness.run_simulation(components=[reservoir])
+```
+
+## 依赖要求
+
+- Python >= 3.8
+- numpy
+- scipy
+- pandas
+- pyyaml
+
+## 项目结构
+
+```
+chs-core/
+├── physical_objects/     # 物理对象建模模块
+├── data_processing/      # 数据处理模块
+├── core_engine/         # 核心引擎模块
+├── config/              # 配置管理模块
+├── io/                  # 输入输出模块
+├── dist/                # 分发包目录
+└── docs/                # 文档目录
+```
+
+## 开发团队
+
+CHS-Core 团队致力于为水力工程领域提供专业、可靠的仿真解决方案。
+
+## 许可证
+
+本项目采用 MIT 许可证，详见 LICENSE 文件。
