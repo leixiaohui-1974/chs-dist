@@ -1,0 +1,69 @@
+# Defines agents for hierarchical control scenario
+agents:
+  - id: upper_local_controller
+    class: core_lib.local_agents.control.local_control_agent.LocalControlAgent
+    dt: 10.0
+    target_component: upper_gate
+    control_type: pid
+    data_sources:
+      observation_topic: upper_reservoir/water_level
+      observation_key: water_level
+    control_targets:
+      action_topic: upper_gate/opening_command
+    allocation_config:
+      method: direct
+    controller_config:
+      class: PIDController
+      Kp: 0.6
+      Ki: 0.15
+      Kd: 0.08
+      setpoint: 20.0
+      min_output: 0.0
+      max_output: 1.0
+
+  - id: lower_local_controller
+    class: core_lib.local_agents.control.local_control_agent.LocalControlAgent
+    dt: 10.0
+    target_component: lower_gate
+    control_type: pid
+    data_sources:
+      observation_topic: lower_reservoir/water_level
+      observation_key: water_level
+    control_targets:
+      action_topic: lower_gate/opening_command
+    allocation_config:
+      method: direct
+    controller_config:
+      class: PIDController
+      Kp: 0.5
+      Ki: 0.12
+      Kd: 0.06
+      setpoint: 12.0
+      min_output: 0.0
+      max_output: 1.0
+
+  - id: upper_level_sensor
+    class: core_lib.local_agents.io.physical_io_agent.PhysicalIOAgent
+    sensors_config:
+      upper_reservoir_water_level:
+        obj_id: upper_reservoir
+        target_attr: water_level
+        state_key: water_level
+        topic: upper_reservoir/water_level
+        noise_params:
+          std_dev: 0.08
+          sampling_rate: 0.2
+    actuators_config: {}
+
+  - id: lower_level_sensor
+    class: core_lib.local_agents.io.physical_io_agent.PhysicalIOAgent
+    sensors_config:
+      lower_reservoir_water_level:
+        obj_id: lower_reservoir
+        target_attr: water_level
+        state_key: water_level
+        topic: lower_reservoir/water_level
+        noise_params:
+          std_dev: 0.06
+          sampling_rate: 0.2
+    actuators_config: {}

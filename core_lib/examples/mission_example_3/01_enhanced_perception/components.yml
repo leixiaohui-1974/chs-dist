@@ -1,0 +1,13 @@
+# 物理组件配置
+
+components:
+  - id: reservoir
+    class: Reservoir
+    initial_state:
+      water_level: 10.0
+    parameters:
+      area: 100.0
+      storage_curve:
+        - [0, 0]
+        - [1000, 10]
+      inflow: 0.0

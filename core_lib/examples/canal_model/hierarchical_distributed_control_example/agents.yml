@@ -1,0 +1,105 @@
+# Agent definitions for the Hierarchical Distributed Control Example
+# This configuration defines a two-level control system:
+# 1. A central Dispatcher agent (in MPC mode) that computes optimal water level setpoints.
+# 2. Two local PID agents that control the gates to track these setpoints.
+
+agents:
+  # Agent for physical world interaction (sensors and actuators)
+  - id: physical_io_agent
+    class: core_lib.local_agents.io.physical_io_agent.PhysicalIOAgent
+    config:
+      sensors_config:
+        canal_1_water_level_sensor:
+          obj_id: canal_1
+          state_key: water_level
+          topic: 'sensor/canal_1/water_level'
+          noise_std: 0.01
+        canal_2_water_level_sensor:
+          obj_id: canal_2
+          state_key: water_level
+          topic: 'sensor/canal_2/water_level'
+          noise_std: 0.01
+      actuators_config:
+        gate_1_actuator:
+          obj_id: gate_1
+          target_attr: opening
+          topic: 'actuator/gate_1/opening'
+          control_key: 'value'
+        gate_2_actuator:
+          obj_id: gate_2
+          target_attr: opening
+          topic: 'actuator/gate_2/opening'
+          control_key: 'value'
+
+  # Agent to simulate dynamic events and disturbances
+  - id: scenario_agent
+    class: core_lib.mission.scenario_agent.ScenarioAgent
+    config:
+      scenario_script:
+        - time: 3600 # 1 hour in - Increase turnout 1 demand
+          topic: 'disturbance/turnout_1'
+          message:
+            outflow: 10.0
+        - time: 5400 # 1.5 hours in - Increase terminal user demand
+          topic: 'disturbance/terminal_user'
+          message:
+            outflow: 20.0
+
+  # Central MPC Agent - computes and publishes optimal gate openings
+  - id: central_mpc_agent
+    class: core_lib.central_agents.central_mpc_agent.CentralMPCAgent
+    config:
+      state_subscriptions:
+        canal_1: 'sensor/canal_1/water_level'
+        canal_2: 'sensor/canal_2/water_level'
+      forecast_subscription: 'forecast/dummy'
+      command_topics:
+        canal_1: 'control/canal_1/setpoint'
+        canal_2: 'control/canal_2/setpoint'
+      state_keys: ["canal_1", "canal_2"]
+      prediction_horizon: 10
+      dt: 60
+      q_weight: 1.0
+      r_weight: 0.1
+      # NOTE: This is a temporary fix. The agent calculates gate openings,
+      # but the PID controllers expect water level setpoints.
+      # This will be corrected in the next step.
+      target_water_levels: [5.0, 5.0]  # The MPC's target levels
+      mpc_pid_model_kp: 0.5  # PID model proportional gain for MPC
+      initial_setpoint_guess: [5.0, 5.0]  # Initial setpoint guess for optimization
+      level_setpoint_bounds: [[4.0, 6.0], [4.0, 6.0]]  # Bounds for water level setpoints
+      normal_setpoints: [0.5, 0.5]     # The MPC's target/initial openings
+      emergency_setpoint: 0.1
+      flood_thresholds: [5.8, 5.8]
+      canal_surface_areas: [1500.0, 1500.0]
+      outflow_coefficient: 0.1 # More realistic coefficient for the new model
+
+  # Local PID Controller for Gate 1
+  - id: gate1_pid_controller
+    class: core_lib.local_agents.control.structured_control_agent.StructuredControlAgent
+    config:
+      controlled_element_id: 'gate_1'
+      control_mode: 'lu'
+      setpoint_topic: 'control/canal_1/setpoint'
+      actuator_topic: 'actuator/gate_1/opening' # Explicitly define for clarity
+      controller_config:
+        Kp: 0.5
+        Ki: 0.05
+        Kd: 0.1
+        min_output: 0.0
+        max_output: 1.0
+
+  # Local PID Controller for Gate 2
+  - id: gate2_pid_controller
+    class: core_lib.local_agents.control.structured_control_agent.StructuredControlAgent
+    config:
+      controlled_element_id: 'gate_2'
+      control_mode: 'lu'
+      setpoint_topic: 'control/canal_2/setpoint'
+      actuator_topic: 'actuator/gate_2/opening' # Explicitly define for clarity
+      controller_config:
+        Kp: 0.6
+        Ki: 0.07
+        Kd: 0.1
+        min_output: 0.0
+        max_output: 1.0

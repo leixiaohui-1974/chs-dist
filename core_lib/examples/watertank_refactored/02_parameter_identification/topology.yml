@@ -1,0 +1,7 @@
+# This file defines the physical connections for the two parallel systems.
+connections:
+  - upstream: real_reservoir
+    downstream: real_valve
+
+  - upstream: twin_reservoir
+    downstream: twin_valve

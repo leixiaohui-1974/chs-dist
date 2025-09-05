@@ -1,0 +1,58 @@
+# This file configures all agents for the actuator disturbance scenario.
+# It uses the enhanced core PhysicalIOAgent to simulate a noisy actuator.
+
+agents:
+  # Agent 1: The Disturbance Agent.
+  - id: disturbance_agent
+    class: core_lib.data_access.csv_inflow_agent.CsvInflowAgent
+    config:
+      csv_file: disturbance.csv
+      time_column: time
+      data_column: outflow_rate
+      inflow_topic: disturbance_outflow_topic
+      data_id: disturbance_1
+
+  # Agent 2: The Perception Agent (perfect sensor).
+  - id: perception_agent
+    class: core_lib.local_agents.perception.digital_twin_agent.DigitalTwinAgent
+    config:
+      simulated_object_id: reservoir_1
+      state_topic: water_level_topic
+      log_data: True
+
+  # Agent 3: The PID Controller.
+  # Publishes a clean, ideal command signal.
+  - id: pump_pid_controller_agent
+    class: core_lib.local_agents.control.local_control_agent.LocalControlAgent
+    config:
+      observation_topic: water_level_topic
+      observation_key: water_level
+      action_topic: clean_pump_command_topic # Publishes the clean command here
+      dt: 1.0
+      controller:
+        class: core_lib.local_agents.control.pid_controller.PIDController
+        config:
+          setpoint: 10.0
+          Kp: 1.2
+          Ki: 0.1
+          Kd: 0.05
+          min_output: 0.0
+          max_output: 5.0
+
+  # Agent 4: The standard PhysicalIOAgent, configured as a noisy actuator.
+  # It intercepts the clean command, adds noise, and acts on the reservoir.
+  - id: noisy_actuator_agent
+    class: core_lib.local_agents.io.physical_io_agent.PhysicalIOAgent
+    config:
+      sensors_config: {} # Not used for sensing in this scenario
+      actuators_config:
+        pump_actuator_1:
+          obj_id: reservoir_1
+          topic: clean_pump_command_topic # Subscribes to the clean command
+          control_key: 'control_signal'
+          target_attr: 'data_inflow'
+          # NEW: Configure noise directly in the standard agent
+          noise_params:
+            bias: 0.95
+            std_dev: 0.1
+            log_topic: actual_inflow_topic # Publishes the noisy/actual inflow for logging

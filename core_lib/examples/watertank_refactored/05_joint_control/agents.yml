@@ -1,0 +1,59 @@
+# This file configures all agents for the joint pump-valve control scenario.
+# The architecture models the entire system as agents to faithfully reproduce
+# the logic of the original script.
+
+agents:
+  # Agent 1: Provides an uncontrollable outflow disturbance from a CSV file.
+  - id: disturbance_outflow_agent
+    class: core_lib.data_access.csv_inflow_agent.CsvInflowAgent
+    config:
+      csv_file_path: "E:\\OneDrive\\Documents\\GitHub\\CHS-SDK\\examples\\watertank_refactored\\05_joint_control\\disturbance.csv"
+      time_column: "time"
+      data_column: "outflow_rate"
+      inflow_topic: "disturbance_outflow_topic"
+
+  # Agent 2: The Coordinator. A generic LocalControlAgent using a custom JointPIDController.
+  # The controller has the PID logic and splits the output for the pump and valve.
+  - id: coordinator_agent
+    class: core_lib.local_agents.control.local_control_agent.LocalControlAgent
+    config:
+      observation_topic: water_level_topic
+      observation_key: 'water_level' # The key in the state dict published by the DigitalTwinAgent
+      action_topic: null # Not needed, as the controller specifies output topics
+      controller:
+        class: core_lib.local_agents.control.custom_controllers.JointPIDController
+        config:
+          pid_params:
+            setpoint: 10.0
+            Kp: 1.8
+            Ki: 0.15
+            Kd: 0.05
+            min_output: -10.0
+            max_output: 10.0
+          actuator_limits:
+            max_inflow: 8.0
+            max_outflow: 8.0
+          messaging_params:
+            pump_command_topic: pump_command_topic
+            valve_command_topic: valve_command_topic
+
+  # Agent 3: Publishes the state of the Reservoir component.
+  # This makes the water level available on a topic for the coordinator to read.
+  - id: reservoir_perception
+    class: core_lib.local_agents.perception.digital_twin_agent.DigitalTwinAgent
+    config:
+      simulated_object_id: reservoir_1
+      state_topic: water_level_topic
+      log_data: True
+
+  # Agent 4: Logger for the pump command.
+  - id: pump_command_logger
+    class: core_lib.local_agents.utility.topic_logger_agent.TopicLoggerAgent
+    config:
+      topic_to_log: pump_command_topic
+
+  # Agent 5: Logger for the valve command.
+  - id: valve_command_logger
+    class: core_lib.local_agents.utility.topic_logger_agent.TopicLoggerAgent
+    config:
+      topic_to_log: valve_command_topic

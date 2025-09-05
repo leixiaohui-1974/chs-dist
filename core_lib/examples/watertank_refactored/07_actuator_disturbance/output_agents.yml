@@ -1,0 +1,1511 @@
+simulation_history:
+- time: 0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - &id001 !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      JA7KAnWAHUA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      JA7KAnWALUA=
+    inflow: 4.750892722287127
+- time: 1.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      yphHHp93IUA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      yphHHp93MUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      wo0U5yS7BUA=
+- time: 2.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      mYl19qgPI0A=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      mYl19qgPM0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      8Qzfgp2A+T8=
+- time: 3.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Tphc9FvFI0A=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Tphc9FvFM0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      mdbhvF+25j8=
+- time: 4.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      wsEHcdJkNEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      hS5llc/u4z8=
+- time: 5.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SR8oHz7pNEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      2rALxHWN4D8=
+- time: 6.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      zqVQ6EJ/NUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      mNAQJZnA4j8=
+- time: 7.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      GFC0UNACNkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      R0l1DK1x4D8=
+- time: 8.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WsmYwRxnNkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      fFAeORwT2T8=
+- time: 9.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      b8oKqEaXNkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      lIoAOfMUyD8=
+- time: 10.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Blk8M9QYN0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      3tIxZrEx4D8=
+- time: 11.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ZxMcbk9+N0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      JZjut85e2T8=
+- time: 12.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XnMwrJwQOEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      6P6LwqdJ4j8=
+- time: 13.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Fc8BIhaEOEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      se1WdF3e3D8=
+- time: 14.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      cUjVknLvOEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      GVfeNBzX2j8=
+- time: 15.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YwbR9vlcOUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      jHzv/thh2z8=
+- time: 16.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      8eIKOtfuOUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      tJE7Z6g74j8=
+- time: 17.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Kp5O3H5bOkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Xc7ukOgp2z8=
+- time: 18.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      p3U06PbVOkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XN91+QKe3j8=
+- time: 19.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      cfIlAVNhO0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      TJkvHoNr4T8=
+- time: 20.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LP4Yi/qdO0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ZN2F+cRTzj8=
+- time: 21.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SjCM+cbwO0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      kYfMnBuz1D8=
+- time: 22.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ysvfmRtfPEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      79/mFCiV2z8=
+- time: 23.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      MCbH4BzBPEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      lJnWuVGA2D8=
+- time: 24.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      H45VGKMTPUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      0fuZ442h1D8=
+- time: 25.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      iAG67J5IPUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      q7Q5Mup9yj8=
+- time: 26.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      k5tJzoWQPUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      roLmY7j50T8=
+- time: 27.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      buII/LHhPUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      pbbRbwtL1D8=
+- time: 28.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      vbxhbwYvPkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      vJM21hxV0z8=
+- time: 29.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      EbDP9eGvPkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      f2q+zXAb4D8=
+- time: 30.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      L0uTh+coP0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      j8fmcGRB3j8=
+- time: 31.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      dgjL3tGrP0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      3Kj35kpd4D8=
+- time: 32.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      HNtu8qgPQEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      U3CrhAHg3D8=
+- time: 33.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      uIaquhBQQEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      5ObqDvIZ4D8=
+- time: 34.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      SRsDPdB+QEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      dEhKLMFf1z8=
+- time: 35.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      /0xcpzisQEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      2tqYLDW01j8=
+- time: 36.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      iDNQE3XqQEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      akTz+TUe3z8=
+- time: 37.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QXPQJBc2QUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      I+4PYITo4j8=
+- time: 38.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Gp6Bn8JQQUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      i9gqsXqryj8=
+- time: 39.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WJs5GbCWQUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Y0//bV574T8=
+- time: 40.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      xVer0mPPQUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      pDbeuNxZ3D8=
+- time: 41.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      /lO51Gb+QUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ZBz+BoGB1z8=
+- time: 42.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RtX4vOE/QkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      7lHgD7pe4D8=
+- time: 43.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      n5yiqjx1QkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      fazj1Hat2j8=
+- time: 44.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      o5FJwGbAQkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      BUG9aYXK4j8=
+- time: 45.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      5I3vejr0QkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      cSD+Ut3p2T8=
+- time: 46.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ups2iY80Q0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      oHXDkUMV4D8=
+- time: 47.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VOzDUdJ5Q0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      diZUI7JQ4T8=
+- time: 48.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ZP2cm3KqQ0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      IIiI7CRQ2D8=
+- time: 49.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      xULxNljuQ0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LlgR1Wb54D8=
+- time: 50.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      2kJlNFYkREA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      VAoAuv7+2j8=
+- time: 51.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      rjXVqNVaREA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      BGr5N7o/2z8=
+- time: 52.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YGKZ1UidREA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      miwLMcuc4D8=
+- time: 53.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      adig6ED6REA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QILdwQQ+5z8=
+- time: 54.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      5fHnsgEiRUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      9r2MI2Xg0z8=
+- time: 55.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      8sFH/PxIRUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      dwbor6R90z8=
+- time: 56.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RfWjr7yURUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      yNQM1+zv4j8=
+- time: 57.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      RZ6ehbbORUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      zn9U/er83D8=
+- time: 58.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      jBB/8tL8RUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      vCM5cDYO1z8=
+- time: 59.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      4xNjIxcuRkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YqsBchii2D8=
+- time: 60.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      sAvXN7dMRkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      yMz3cxSgzj8=
+- time: 61.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      341oprp2RkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      bBfBSLcB1T8=
+- time: 62.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      IFNFP7mxRkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      dqBibkx/3T8=
+- time: 63.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      jWQ936DZRkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      mLYI/M/z0z8=
+- time: 64.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QoH4IlcWR0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      o1qO3SFb3j8=
+- time: 65.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      NCqgDXtcR0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      fTzqqfqI4T8=
+- time: 66.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      q4d9lmCBR0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      XbuubsRy0j8=
+- time: 67.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      486f8sm3R0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      IZwjEa402z8=
+- time: 68.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AbIV76rxR0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      6I7xOn7w3D8=
+- time: 69.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      tJTnagAkSEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      jFnx6L0q2T8=
+- time: 70.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      zHIZ9EVbSEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      3AvvmMSi2z8=
+- time: 71.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LDsbDbyDSEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ITDkgAw71D8=
+- time: 72.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QiKoObfLSEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      jMU5I8v+4T8=
+- time: 73.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      4ApsyY4JSUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      E0/04cfr3j8=
+- time: 74.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      iKD4RmNFSUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      C9RKxj7q3T8=
+- time: 75.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      FPQhNgSCSUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      1MWplHdQ3j8=
+- time: 76.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      PzEoEQO0SUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      vpUeg23/2D8=
+- time: 77.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      0IxLtuLvSUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      QcitkdLv3T8=
+- time: 78.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      cmbl0I0oSkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      O9HsTI1V3D8=
+- time: 79.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Ujgku5RsSkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      6ne0j7oB4T8=
+- time: 80.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      80Ah16SjSkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      g1CE/g2I2z8=
+- time: 81.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UnTLnC7XSkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      jK8Z1eLE2T8=
+- time: 82.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      WJucSiwSS0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      M4OT6NZ+3T8=
+- time: 83.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      yOaVj+5FS0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ErilfCLh2T8=
+- time: 84.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Q3pACFp+S0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ib1JVbw13D8=
+- time: 85.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      /uCuhEWwS0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UF0zN7712D8=
+- time: 86.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      yvfOrvTPS0A=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      lMsWICqvzz8=
+- time: 87.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      i1puuegETEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Y2CxTwV62j8=
+- time: 88.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      jJPvjoI0TEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      ZICcwOrM1z8=
+- time: 89.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      nzOpmotrTEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      YwnQ3IWE2z8=
+- time: 90.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      fiT7KXeVTEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Rm/4qMf11D8=
+- time: 91.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      CpQ7HQDCTEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      KsY3oHlE1j8=
+- time: 92.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UjVNfEv2TEA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      yKPQiK8l2j8=
+- time: 93.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      LrkfoTMuTUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      /u1BaRL02z8=
+- time: 94.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      tPP/89BwTUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      mKEOuFSn4D8=
+- time: 95.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Phn+drWiTUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      zcQSf0Hy2D8=
+- time: 96.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      sVrFA2DfTUA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      hLmgY0ZV3j8=
+- time: 97.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      Y5MBmrQQTkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      F1kcHkuq2D8=
+- time: 98.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      UBn6rQVHTkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      c/ZC/Iko2z8=
+- time: 99.0
+  reservoir_1:
+    water_level: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      AAAAAAAAJEA=
+    outflow: 0.0
+    volume: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      2vvJ5ZCLTkA=
+    inflow: !!python/object/apply:numpy._core.multiarray.scalar
+    - *id001
+    - !!binary |
+      daL4880i4T8=
